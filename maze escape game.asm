@@ -558,7 +558,7 @@ jmp moveDone
 
 ;coin alindiginda puani 5 artirir ve coin hucreyi bosluk yapar
 moveToCoin:
-add word ptr [coinScore],5
+add word ptr [coinScore],15
 call SetCellEmpty
 call DrawStatus
 call EraseOldPlayer
